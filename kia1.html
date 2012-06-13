@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+	<style>
+	 td{
+	 padding-bottom:16px;
+	 }
+	 #navy{
+	 	width:157px;
+	 	height:62px;
+	 }
+	 
+	 @font-face{
+	 font-family:chuckthin;
+	 src:url('./font/chuck_thin.ttf');
+	 }
+	 body{
+	 margin:0px;
+	 padding:0px;
+	 }
+	 #wrapper{
+	 	width:1080px;
+	 	height:800px;
+	 	margin-right:auto;
+	 	margin-left:auto;
+	 }
+	 a{
+	 text-decoration:none;
+	 color:black;
+	 }
+	 #imageContainer{
+		overflow:hidden;
+		width:927px;
+	   height:653px;
+	   position:relative;
+	   
+	 }
+	 .images{
+	  position:relative;
+	   z-index:1;
+	   margin:0;
+	   padding:0;
+	 }
+	 .images img{
+	 display:block;
+	 position:relative;
+	 float:left;
+	 }
+	 a#homeButton:hover{
+	 color:black;
+	 }
+	 a#menuButton:hover{
+	 color:black;
+	 }
+	 a#homeButton,a#menuButton{
+	 color:#939498
+	 }
+	#gallery{
+		width:560px;
+	   height:340px;
+	   margin-right:auto;
+	   margin-left:auto;
+	}
+	</style>
+</head>
+<body>
+	
+	<div id="wrapper">
+		<div id="navy" style="font-size:20px;padding-top:37px;text-transform:uppercase;">
+				<div style="font-family:chuckthin;"><a id="homeButton" style="padding-left:32px;" href="television.html">menu</a></div>
+		</div>
+		<div id="gallery">
+			<video width="560" height="340" controls>
+			 <source src="television/kia_little_shreyer.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+			 <source src="television/kia_little_shreyer.ogv" type='video/ogg; codecs="theora, vorbis"'>
+			</video>
+		
+		</gallery>
+	</div>
+</body>
+</html>
