@@ -9,6 +9,7 @@ $(document).ready(function(){
 	$maxClicks = $("#images").children().size();
 	$("#scrollnavy").hide();
 	$("#prevIcon2").hide();
+	$("#homeButton").show();
 	
 	$(".next").click(function(){
 		$("#prevIcon").show();
@@ -57,6 +58,7 @@ $(document).ready(function(){
 	$("#print1Button").click(function(){
 		$("#gallery").show();
 		$("#thumbnailContainer").hide();
+		$("#homeButton").hide();
 		$("#nextIcon").show();
 		$("#scrollnavy").show();
 		$("#prevIcon2").show();
@@ -74,7 +76,7 @@ $(document).ready(function(){
 		$("#gallery").show();
 		$("#thumbnailContainer").hide();
 		$("#scrollnavy").show();
-		
+		$("#homeButton").hide();
 		
 		$newFrameNo =(($frame_number/1)+1);
 		
@@ -99,7 +101,7 @@ $(document).ready(function(){
 		$("#gallery").show();
 		$("#thumbnailContainer").hide();
 		$("#scrollnavy").show();
-		
+		$("#homeButton").hide();
 		
 		$frame_number = 2;
 		
@@ -126,7 +128,7 @@ $(document).ready(function(){
 		$("#gallery").show();
 		$("#thumbnailContainer").hide();
 		$("#scrollnavy").show();
-		
+		$("#homeButton").hide();
 		$frame_number = 3;
 		
 		$newFrameNo =(($frame_number/1)+1);
@@ -152,7 +154,7 @@ $(document).ready(function(){
 		$("#gallery").show();
 		$("#thumbnailContainer").hide();
 		$("#scrollnavy").show();
-		
+		$("#homeButton").hide();
 		$frame_number = 4;
 		
 		$newFrameNo =(($frame_number/1)+1);
@@ -178,7 +180,7 @@ $(document).ready(function(){
 		$("#gallery").show();
 		$("#thumbnailContainer").hide();
 		$("#scrollnavy").show();
-		
+		$("#homeButton").hide();
 		$frame_number = 5;
 		
 		$newFrameNo =(($frame_number/1)+1);
@@ -204,7 +206,7 @@ $(document).ready(function(){
 		$("#gallery").show();
 		$("#thumbnailContainer").hide();
 		$("#scrollnavy").show();
-		
+		$("#homeButton").hide();
 		$frame_number = 6;
 		
 		$newFrameNo =(($frame_number/1)+1);
@@ -230,6 +232,7 @@ $(document).ready(function(){
 		$("#gallery").show();
 		$("#thumbnailContainer").hide();
 		$("#scrollnavy").show();
+		$("#homeButton").hide();
 		$frame_number = 7;
 		
 		$newFrameNo =(($frame_number/1)+1);
@@ -255,7 +258,7 @@ $(document).ready(function(){
 		$("#gallery").show();
 		$("#thumbnailContainer").hide();
 		$("#scrollnavy").show();
-		
+		$("#homeButton").hide();
 		$frame_number = 8;
 		
 		$newFrameNo =(($frame_number/1)+1);
@@ -281,7 +284,7 @@ $(document).ready(function(){
 		$("#gallery").show();
 		$("#thumbnailContainer").hide();
 		$("#scrollnavy").show();
-		
+		$("#homeButton").hide();
 		$frame_number = 9;
 		
 		$newFrameNo =(($frame_number/1)+1);
@@ -308,6 +311,7 @@ $(document).ready(function(){
 		$("#thumbnailContainer").hide();
 		$("#scrollnavy").show();
 		$frame_number = 10;
+		$("#homeButton").hide();
 		
 		$newFrameNo =(($frame_number/1)+1);
 		
